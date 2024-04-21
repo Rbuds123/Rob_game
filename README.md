@@ -31,11 +31,11 @@ step 3 select chrome web under devices
 step 4 click run  
 
 ##dependancies
-pubsepc.yaml dependencies:
-  flutter:
-    sdk: flutter
-  hive: ^2.0.4
-  fluttertoast: ^8.2.4
+pubsepc.yaml dependencies:  
+  flutter:  
+    sdk: flutter  
+  hive: ^2.0.4  
+  fluttertoast: ^8.2.4  
 
 
 to update dependancies run the follow commands:
