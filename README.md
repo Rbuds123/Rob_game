@@ -33,7 +33,7 @@ step 4 click run
 ##dependancies
 pubsepc.yaml dependencies:  
   flutter:  
-    sdk: flutter  
+      sdk: flutter  
   hive: ^2.0.4  
   fluttertoast: ^8.2.4  
 
