@@ -1,5 +1,12 @@
 # dungeons and dragons
-###clone repository
+
+
+### version 
+ide: IntelliJ IDEA 2023.2.2 (Community Edition)
+fluter version: 3.13.6
+
+### clone repository
+
 ```
 git clone https://github.com/Rbuds123/Rob_game.git    
 ```
@@ -9,18 +16,14 @@ git clone https://github.com/Rbuds123/Rob_game.git
 cd Robs_game
 cd rob_game
 ```
-###run  it 
+### run  it 
 ```
 flutter run -d chrome
 ```
-###pulling the main branch onto your branch
+### pulling the main branch onto your branch
 ```
 git pull origin main 
 ```
-###version 
-ide: IntelliJ IDEA 2023.2.2 (Community Edition)
-fluter version: 3.13.6
-
 ## Getting Started
 step 1 load IntelliJ and select file -> open and select the source code folder
 step 2 right click programming project -> select build module 
