@@ -1,0 +1,26 @@
+1,2,3,4,you discover a cave: explore the cave?
+2,7,6,24,a goblin is guarding it: attack the goblin?
+3,7,8,9,you see a camp in the distance: explore?
+4,7,8,6,you creep up and peep inside and see goblins: continue?
+5,1,1,1,Due to the dice roll you have been killed: restart?
+6,11,7,12,you sneak around and find a chest: loot the chest?
+7,1,1,1,you have been killed: restart?
+8,13,22,13,you see a village up the road: enter the village?
+9,10,7,7,you scout it out and see a way through unseen: continue?
+10,17,7,16,you find a loot hoard wipe out evil camp?
+11,15,7,24,you find a sword: attack the goblins with it?
+12,11,7,25,there is magic on the chest: Loot the chest?
+13,19,14,26,you enter the village and see a tavern: go to the tavern?
+14,18,19,19,you see a town hall: enter the town hall?
+15,20,20,20,you wipe out all the goblins: continue?
+16,21,21,21,you find out there not evil and you become friends: continue?
+17,22,22,22,you destroy the camp not knowing what you killed: continue?
+18,23,23,23,your a recognised adventurer and given a house to live in: accept the house?
+19,1,1,1,You get killed because your enemies found you and wanted you dead: restart?
+20,1,1,1,you completed this level: restart and get a new story?
+21,1,1,1,they give you a new home and you live there for a long time: restart and get a new ending?
+22,1,1,1,you have a bounty put on you and are hunted down and killed: restart?
+23,1,1,1,you have a new house and retire: restart for another life?
+24,1,1,1,you were too indecisive and have been killed: restart?
+25,1,1,1,you have gained tremendous power and now are too powerful so god killed you: restart?
+26,1,1,1,you found a secret ending and gain untold riches: go to the start?
