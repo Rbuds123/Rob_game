@@ -1,5 +1,22 @@
 # dungeons and dragons
-this is a short introduction to dungeons and dragons game it will try to show the basics of a dungeons and dragons game
+this is a short introduction to dungeons and dragons game it will try to show the basics of a dungeons and dragons game  
+
+## Getting Started
+step 1 load IntelliJ and select file -> open and select the source code folder  
+step 2 right click programming project -> select build module  
+step 3 select chrome web under devices  
+step 4 click run  
+
+## dependancies
+pubsepc.yaml dependencies:  
+  flutter:  
+      sdk: flutter  
+  hive: ^2.0.4  
+  fluttertoast: ^8.2.4  
+
+## help 
+to update dependancies run the follow commands:
+flutter pub upgrade  
 
 ## version 
 ide: IntelliJ IDEA 2023.2.2 (Community Edition)  
@@ -26,19 +43,3 @@ pulling into main branch
 ```
 git pull origin main 
 ```
-## Getting Started
-step 1 load IntelliJ and select file -> open and select the source code folder  
-step 2 right click programming project -> select build module  
-step 3 select chrome web under devices  
-step 4 click run  
-
-## dependancies
-pubsepc.yaml dependencies:  
-  flutter:  
-      sdk: flutter  
-  hive: ^2.0.4  
-  fluttertoast: ^8.2.4  
-
-## help 
-to update dependancies run the follow commands:
-flutter pub upgrade
