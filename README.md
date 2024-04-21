@@ -25,10 +25,10 @@ flutter run -d chrome
 git pull origin main 
 ```
 ## Getting Started
-step 1 load IntelliJ and select file -> open and select the source code folder
-step 2 right click programming project -> select build module 
-step 3 select chrome web under devices
-step 4 click run
+step 1 load IntelliJ and select file -> open and select the source code folder  
+step 2 right click programming project -> select build module  
+step 3 select chrome web under devices  
+step 4 click run  
 
 ##dependancies
 pubsepc.yaml dependencies:
