@@ -2,7 +2,7 @@
 
 
 ### version 
-ide: IntelliJ IDEA 2023.2.2 (Community Edition)
+ide: IntelliJ IDEA 2023.2.2 (Community Edition)  
 fluter version: 3.13.6
 
 ### clone repository
