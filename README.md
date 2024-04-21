@@ -1,5 +1,5 @@
 # dungeons and dragons
-
+this is a short introduction to dungeons and dragons game it will try to show the basics of a dungeons and dragons game
 
 ## version 
 ide: IntelliJ IDEA 2023.2.2 (Community Edition)  
