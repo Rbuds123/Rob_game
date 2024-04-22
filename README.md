@@ -34,7 +34,7 @@ git clone https://github.com/Rbuds123/Rob_game.git
 to navigate to repo run these:
 ```
 cd Robs_game
-cd rob_game
+cd Rob_game
 ```
 ## run  it 
 to run application  
