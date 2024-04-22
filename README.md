@@ -13,6 +13,9 @@ pubsepc.yaml dependencies:
       sdk: flutter  
   hive: ^2.0.4  
   fluttertoast: ^8.2.4  
+  firebase_core: ^2.30.0  
+  cloud_firestore: ^4.17.0  
+  firebase_auth: ^4.19.2  
 
 ## help 
 to update dependancies run the follow commands:
