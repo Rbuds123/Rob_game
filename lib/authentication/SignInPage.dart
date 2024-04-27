@@ -18,41 +18,48 @@ class _LoginPageState extends State<loginPage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-          backgroundColor: Colors.transparent,
+        backgroundColor: Colors.white,
       ),
-      body: Stack(
-        fit: StackFit.expand,
+      body: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset(
-            'assets/loginBackground.jpg',
-            fit: BoxFit.cover,
-          ),
-          Center(
+          Expanded(
             child: Container(
-              width: 600,
-              padding: EdgeInsets.all(8),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  TextField(
-                    controller: _emailController,
-                    decoration: InputDecoration(labelText: 'Email'),
-                  ),
-                  SizedBox(height: 20),
-                  TextField(
-                    controller: _passwordController,
-                    decoration: InputDecoration(labelText: 'Password'),
-                    obscureText: true,
-                  ),
-                  SizedBox(height: 20),
-                  _isLoading
-                      ? CircularProgressIndicator()
-                      : ElevatedButton(
-                    onPressed: _signIn,
-                    child: Text('Sign In'),
-                  ),
-                ],
+              padding: EdgeInsets.all(15),
+              child: Image.asset(
+                'images/loginBackground.png',
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+          Expanded(
+            child: Center(
+              child: Container(
+                width: 500,
+                padding: EdgeInsets.all(8),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TextField(
+                      controller: _emailController,
+                      decoration: InputDecoration(labelText: 'Email'),
+                    ),
+                    SizedBox(height: 20),
+                    TextField(
+                      controller: _passwordController,
+                      decoration: InputDecoration(labelText: 'Password'),
+                      obscureText: true,
+                    ),
+                    SizedBox(height: 20),
+                    _isLoading
+                        ? CircularProgressIndicator()
+                        : ElevatedButton(
+                      onPressed: _signIn,
+                      child: Text('Sign In'),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -60,6 +67,8 @@ class _LoginPageState extends State<loginPage> {
       ),
     );
   }
+
+
 
 
 

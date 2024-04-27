@@ -82,7 +82,7 @@ flutter:
     - assets/images/cavebackground.png
     - assets/images/villagebackground.png
     - assets/images/deathscreen.jpg
-    - assets/images/loginBackground.jpg
+    - assets/images/loginBackground.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
