@@ -13,48 +13,64 @@ class _LoginPageState extends State<loginPage> {
   final TextEditingController _passwordController = TextEditingController();
   bool _isLoading = false;
 
-
-
-  //await Firebase.initializeApp(
-  //options: DefaultFirebaseOptions.currentPlatform,
-  //);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
+        backgroundColor: Colors.white,
       ),
-      body: Center(
-        child: Container(
-          width: 600,
-          padding: EdgeInsets.all(8),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              TextField(
-                controller: _emailController,
-                decoration: InputDecoration(labelText: 'Email'),
+      body: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(15),
+              child: Image.asset(
+                'images/loginBackground.png',
+                fit: BoxFit.contain,
               ),
-              SizedBox(height: 20),
-              TextField(
-                controller: _passwordController,
-                decoration: InputDecoration(labelText: 'Password'),
-                obscureText: true,
-              ),
-              SizedBox(height: 20),
-              _isLoading
-                  ? CircularProgressIndicator()
-                  : ElevatedButton(
-                onPressed: _signIn,
-                    child: Text('Sign In'),
-              ),
-            ],
+            ),
           ),
-        ),
+          Expanded(
+            child: Center(
+              child: Container(
+                width: 500,
+                padding: EdgeInsets.all(8),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TextField(
+                      controller: _emailController,
+                      decoration: InputDecoration(labelText: 'Email'),
+                    ),
+                    SizedBox(height: 20),
+                    TextField(
+                      controller: _passwordController,
+                      decoration: InputDecoration(labelText: 'Password'),
+                      obscureText: true,
+                    ),
+                    SizedBox(height: 20),
+                    _isLoading
+                        ? CircularProgressIndicator()
+                        : ElevatedButton(
+                      onPressed: _signIn,
+                      child: Text('Sign In'),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
+
+
+
+
 
   void _signIn() async {
     setState(() {
