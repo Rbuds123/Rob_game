@@ -16,7 +16,10 @@ class homePage extends StatelessWidget {//a stateless widget is used because the
         ),
         child: Scaffold(
           appBar: AppBar(
-            title: Text('dungeons and dragons'),
+            title: Text(
+              'Dungeons and Dragons',
+              style: TextStyle(color: Colors.white),
+            ),
             backgroundColor: Colors.transparent,
           ),
           backgroundColor: Colors.transparent,
