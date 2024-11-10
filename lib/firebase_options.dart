@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB0tYW-9is4IQcvKE2h3IYKcoOUHiFgv94',
+    apiKey: 'KEY',
     appId: '1:600090546549:web:f16f1ee63036041309833c',
     messagingSenderId: '600090546549',
     projectId: 'rob-game',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBUkTQvfccBDrgv--Og22d1cJncehjG_ZA',
+    apiKey: 'KEY',
     appId: '1:600090546549:android:a9aa875e3bb827ce09833c',
     messagingSenderId: '600090546549',
     projectId: 'rob-game',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBLBP22sdUoOZE-M66jAA26aMT0bvyASrA',
+    apiKey: 'KEY',
     appId: '1:600090546549:ios:211bf8e39ceb937809833c',
     messagingSenderId: '600090546549',
     projectId: 'rob-game',
@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBLBP22sdUoOZE-M66jAA26aMT0bvyASrA',
+    apiKey: 'KEY',
     appId: '1:600090546549:ios:211bf8e39ceb937809833c',
     messagingSenderId: '600090546549',
     projectId: 'rob-game',
@@ -77,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB0tYW-9is4IQcvKE2h3IYKcoOUHiFgv94',
+    apiKey: 'KEY',
     appId: '1:600090546549:web:591d3657c1e0ceea09833c',
     messagingSenderId: '600090546549',
     projectId: 'rob-game',
